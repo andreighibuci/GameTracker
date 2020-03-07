@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andrei\\source\\repos\\GameTracker\\GameTracker\\GameTracker.csproj": {}
+    "C:\\Users\\Andrei\\Documents\\GitHub\\GameTracker\\GameTracker\\GameTracker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andrei\\source\\repos\\GameTracker\\GameTracker\\GameTracker.csproj": {
+    "C:\\Users\\Andrei\\Documents\\GitHub\\GameTracker\\GameTracker\\GameTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrei\\source\\repos\\GameTracker\\GameTracker\\GameTracker.csproj",
+        "projectUniqueName": "C:\\Users\\Andrei\\Documents\\GitHub\\GameTracker\\GameTracker\\GameTracker.csproj",
         "projectName": "GameTracker",
-        "projectPath": "C:\\Users\\Andrei\\source\\repos\\GameTracker\\GameTracker\\GameTracker.csproj",
+        "projectPath": "C:\\Users\\Andrei\\Documents\\GitHub\\GameTracker\\GameTracker\\GameTracker.csproj",
         "packagesPath": "C:\\Users\\Andrei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andrei\\source\\repos\\GameTracker\\GameTracker\\obj\\",
+        "outputPath": "C:\\Users\\Andrei\\Documents\\GitHub\\GameTracker\\GameTracker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Andrei\\AppData\\Roaming\\NuGet\\NuGet.Config",
