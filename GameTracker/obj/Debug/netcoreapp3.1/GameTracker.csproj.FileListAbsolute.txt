@@ -204,7 +204,6 @@ C:\Users\Andrei\Documents\GitHub\GameTracker\GameTracker\obj\Debug\netcoreapp3.1
 C:\Users\Andrei\Documents\GitHub\GameTracker\GameTracker\obj\Debug\netcoreapp3.1\GameTracker.RazorCoreGenerate.cache
 C:\Users\Andrei\Documents\GitHub\GameTracker\GameTracker\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
 C:\Users\Andrei\Documents\GitHub\GameTracker\GameTracker\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
-C:\Users\Andrei\Documents\GitHub\GameTracker\GameTracker\obj\Debug\netcoreapp3.1\Razor\Pages\Register.cshtml.g.cs
 C:\Users\Andrei\Documents\GitHub\GameTracker\GameTracker\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
 C:\Users\Andrei\Documents\GitHub\GameTracker\GameTracker\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Andrei\Documents\GitHub\GameTracker\GameTracker\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
@@ -215,5 +214,3 @@ C:\Users\Andrei\Documents\GitHub\GameTracker\GameTracker\obj\Debug\netcoreapp3.1
 C:\Users\Andrei\Documents\GitHub\GameTracker\GameTracker\obj\Debug\netcoreapp3.1\GameTracker.csproj.CopyComplete
 C:\Users\Andrei\Documents\GitHub\GameTracker\GameTracker\obj\Debug\netcoreapp3.1\GameTracker.dll
 C:\Users\Andrei\Documents\GitHub\GameTracker\GameTracker\obj\Debug\netcoreapp3.1\GameTracker.pdb
-C:\Users\Andrei\Documents\GitHub\GameTracker\GameTracker\obj\Debug\netcoreapp3.1\Razor\Pages\SignIn.cshtml.g.cs
-C:\Users\Andrei\Documents\GitHub\GameTracker\GameTracker\obj\Debug\netcoreapp3.1\Razor\Pages\Latest.cshtml.g.cs
