@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - GameTracker</title>
-    <link rel="stylesheet" href="~/css/site.css">
+    <link rel="stylesheet" href="~/css/site.css" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
@@ -12,8 +12,8 @@
  <header>
    <div class="menu-area">
        <ul>
-           <li><a href="#">Home</a></li>
-           <li><a href="#">Latest</a></li>
+           <li><a asp-page="/Index">Home</a></li>
+           <li><a asp-page="/Error">Latest</a></li>
            <li><a href="#">Community</a></li>
            <li><a href="#">Register</a></li>
            <li>

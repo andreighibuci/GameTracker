@@ -1,24 +1,7 @@
-﻿.index-big-image {
-    width: 100%;
-    margin: 0;
-    position: absolute;
-    
+﻿
+body{
+    background-color:black;
 }
-    .index-big-image img {
-        /* Set up proportionate scaling */
-        width: 99.15%;
-        height: 850px;
-        /* Set up positioning */
-        position: absolute;
-        left: 0;
-    }
-
-.botom-left-index-text{
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
-
 /*navbar*/
 /*Styling links*/
 .menu-area{
@@ -64,3 +47,67 @@
     margin: 15px;
 }
 /*==========================================================================*/
+.text-block {
+    width: 350px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 45em;
+    bottom: 0;
+    left:10px;
+    right: 0;
+    
+}
+.text-block p,h1{
+    color:white;
+    margin-left:83px;
+}
+
+.div-container{
+    width:100%;
+}
+.description {
+    width: 25%;
+    height:312.3px;
+    margin: auto;
+    float: left;
+    background-image: url(../images/DescriptiomBg2.jpg);
+}
+
+    .description p{
+        font-size: 30px;
+        color:white;
+    }
+
+    .description h2{
+        font-size:50px;
+        color:white;
+    }
+.description-abt {
+    width: 50%;
+    float: left;
+    background-image: url(../images/descriptionbg3.jpg);
+}
+    .description-abt p {
+        font-size: 30px;
+        font-family: "Times New Roman", Times, serif;
+        color: white;
+        padding-left:1em;
+        padding-right:1em;
+    }
+
+    .description-abt h2 {
+        font-size: 50px;
+        font-family: "Times New Roman", Times, serif;
+        color: white;
+        padding-left:7em;
+    }
+
+.button-div {
+    margin-left: 14em;
+    margin-top: 19em;
+    background-color: aqua;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size:15px;
+}
