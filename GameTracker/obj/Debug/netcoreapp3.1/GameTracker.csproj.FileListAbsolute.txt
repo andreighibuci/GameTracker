@@ -214,3 +214,4 @@ C:\Users\Andrei\Documents\GitHub\GameTracker\GameTracker\obj\Debug\netcoreapp3.1
 C:\Users\Andrei\Documents\GitHub\GameTracker\GameTracker\obj\Debug\netcoreapp3.1\GameTracker.csproj.CopyComplete
 C:\Users\Andrei\Documents\GitHub\GameTracker\GameTracker\obj\Debug\netcoreapp3.1\GameTracker.dll
 C:\Users\Andrei\Documents\GitHub\GameTracker\GameTracker\obj\Debug\netcoreapp3.1\GameTracker.pdb
+C:\Users\Andrei\Documents\GitHub\GameTracker\GameTracker\obj\Debug\netcoreapp3.1\Razor\Pages\Register.cshtml.g.cs
