@@ -2,12 +2,12 @@
 
 <div class="row checkoutForm">
     <h2>Your shopping cart</h2>
-    <h4>Here are the drinks in your shopping cart.</h4>
+    <h4>Here are the games in your shopping cart.</h4>
     <table class="table table-bordered table-striped">
         <thead>
             <tr>
                 <th>Selected amount</th>
-                <th>Drink</th>
+                <th>Game</th>
                 <th class="text-right">Price</th>
                 <th class="text-right">Subtotal</th>
                 <th></th>
@@ -23,7 +23,7 @@
                     <td class="text-right">
                         @((line.Amount * line.Game.Price).ToString("c"))
                     </td>
-                    <td class="text-center"><a class="glyphicon glyphicon-remove text-danger remove" asp-controller="ShoppingCart" asp-action="RemoveFromShoppingCart" asp-route-drinkId="@line.Game.GameId"></a></td>
+                    <td class="text-center"><a class="glyphicon glyphicon-remove text-danger remove" asp-controller="ShoppingCart" asp-action="RemoveFromShoppingCart" asp-route-gameid="@line.Game.GameId"></a></td>
                 </tr>
             }
         </tbody>
@@ -41,13 +41,7 @@
         <div class="btn-group ">
             <a class="btn btn-success" asp-controller="Order" asp-action="Checkout">Check out</a>
             <a class="btn-group">
-                <a class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                    Add more drinks<span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu" role="menu">
-                    <li><a asp-controller="Drink" asp-action="List" asp-route-category="Alcoholic">Alcoholic</a></li>
-                    <li><a asp-controller="Drink" asp-action="List" asp-route-category="Non-alcoholic">Non Alcoholic</a></li>
-                </ul>
+                <a asp-controller="Game" asp-action="List" class="btn btn-default">Show all games</a>
             </a>
         </div>
     </div>

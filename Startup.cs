@@ -15,6 +15,7 @@ using GameTracker_release.Repositories;
 using GameTracker_release.Models;
 using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 
 namespace GameTracker_release
 {
@@ -36,7 +37,9 @@ namespace GameTracker_release
         {
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(_configurationRoot.GetConnectionString("DefaultConnection")));
-   
+
+            services.AddIdentity<IdentityUser, IdentityRole>().
+                AddEntityFrameworkStores<AppDbContext>();    
             services.AddTransient<IGameRepository, GameRepository>();
             services.AddTransient<ICategoryRepository, CategoryRepository>();
             
@@ -58,8 +61,13 @@ namespace GameTracker_release
                 app.UseStatusCodePages();
                 app.UseStaticFiles();
                 app.UseSession();
+                app.UseAuthentication();
                 app.UseMvc(routes =>
                 {
+                    routes.MapRoute(
+                   name: "gamedetails",
+                   template: "game/Details/{gameId?}",
+                   defaults: new { Controller = "Game", action = "Details" });
                     routes.MapRoute(name: "categoryFilter", template: "Game/{action}/{category?}", defaults: new { Controller = "Game", action = "List" });
                     routes.MapRoute(name: "default", template: "{controller=Home}/{action=Index}/{id?}");     
                 });

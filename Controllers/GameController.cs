@@ -51,6 +51,34 @@ namespace GameTracker_release.Controllers
 
         }
 
-      
+
+        public ViewResult Search(string searchString)
+        {
+            string _searchString = searchString;
+            IEnumerable<Game> games;
+            string currentCategory = string.Empty;
+
+            if (string.IsNullOrEmpty(_searchString))
+            {
+                games = _gameRepository.Games.OrderBy(p => p.GameId);
+            }
+            else
+            {
+                games = _gameRepository.Games.Where(p => p.Name.ToLower().Contains(_searchString.ToLower()));
+            }
+
+            return View("~/Views/Game/List.cshtml", new GameListViewModel { Games = games, CurrentCategory = "All games" });
+        }
+
+        public ViewResult Details(int gameId)
+        {
+            var game = _gameRepository.Games.FirstOrDefault(d => d.GameId == gameId);
+            if (game == null)
+            {
+                return View("~/Views/Error/Error.cshtml");
+            }
+            return View(game);
+        }
     }
 }
+

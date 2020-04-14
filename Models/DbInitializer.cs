@@ -68,7 +68,7 @@ namespace GameTracker_release.Models
                          Imageurl = "https://images.squarespace-cdn.com/content/5ae5edddf407b4362a8852cb/1536964064787-T0PD8JGKL5DXEALHF4E0/spider-man-puddle-1131908.jpeg?content-type=image%2Fjpeg",
                          ThumbnailImgName = "SpiderMan_img.jpg",
                          InStock = true,
-                         isPrefeeredGame = true
+                         isPrefeeredGame = false
                      },
                      new Game
                      {
@@ -128,7 +128,7 @@ namespace GameTracker_release.Models
                          Category = Categories["Multiplayer"],
                          Imageurl = "https://venturebeat.com/wp-content/uploads/2020/01/wow-vulpera.jpg?fit=1280%2C720&strip=all",
                          InStock = true,
-                         isPrefeeredGame = true,
+                         isPrefeeredGame = false,
                          ThumbnailImgName = "wow_img.jpg"
                      },
                     new Game
@@ -140,7 +140,7 @@ namespace GameTracker_release.Models
                         Category = Categories["Multiplayer"],
                         Imageurl = "https://res.cloudinary.com/lmn/image/upload/c_limit,h_360,w_640/e_sharpen:100/f_auto,fl_lossy,q_auto/v1/gameskinnyc/c/a/l/call-duty-warzone-buy-stations-everything-you-need-know-d8d71.jpg",
                         InStock = true,
-                        isPrefeeredGame = true,
+                        isPrefeeredGame = false,
                         ThumbnailImgName = "COD_img.jpg"
                     },
                     new Game
@@ -152,7 +152,7 @@ namespace GameTracker_release.Models
                         Category = Categories["Singleplayer"],
                         Imageurl = "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/assassins-creed-odyssey-1547743453.jpgerything-you-need-know-d8d71.jpg",
                         InStock = true,
-                        isPrefeeredGame = true,
+                        isPrefeeredGame = false,
                         ThumbnailImgName = "Assassins_img.jpg"
                     }
 
